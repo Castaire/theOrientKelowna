@@ -1,0 +1,423 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Julius Sans One', sans-serif; 
+font-family: 'Open Sans', sans-serif;
+*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1268px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.main {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 60px;
+	text-align: center;
+	position: relative;
+	top: 30px;
+}
+
+.main h1 {
+	margin-top: 1px;
+	margin-bottom: 20px;
+}
+
+.main p {
+	font-size: 20px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.menu {
+	text-align: center;
+}
+
+.menu ul {
+	display: inline-block;
+}
+
+.menu li {
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	margin: 20px;
+}
+
+.menu a:link, a:visited {
+	color: #333333;
+	text-decoration: none;
+	transition-duration: 0.15s;
+}
+
+.menu a:hover {
+	color: #FFAF35;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.intro {
+	position: relative;
+	height: 500px;
+	margin-top: 80px;
+	background-color: #DDDDDD;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+
+#background {
+	overflow: hidden;
+	height: 100%;
+}
+
+.intro img {
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	z-index: -1;
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-ms-filter: blur(1px);
+	-o-filter: blur(1px);
+	filter: blur(1px);
+}
+
+
+#blurb {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 0px;
+	color: white;
+}
+
+#blurb h1 {
+	border-bottom: 10px solid white;
+	font-size: 60px;
+}
+
+#blurb p {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 40px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.1em;
+	width: 900px;
+	line-height: 170%;
+	font-size: 17px;
+}
+
+#blurb span {
+	color: #FFAF35;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.offer {
+	height: 370px;
+}
+
+.item {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	height: 80%;
+	margin: 60px 18px 20px 22px;
+}
+
+.item h1 {
+	font-family: 'Oswald', sans-serif;
+	color: #717171;
+	letter-spacing: 2px;
+	text-align: left;
+	font-size: 40px;
+}
+
+.item p {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	font-size: 13px;
+	letter-spacing: 0.05em;
+	line-height: 20px;
+}
+
+.item span {
+	color: #FFAF35;
+}
+
+.item a:link, a:visited {
+	text-decoration: none;
+}
+
+.item a p {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 18px;
+}
+
+.item a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+.info {
+	background-color: #DDDDDD;
+	height: 480px;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+#infotitle {
+	display: inline-block;
+	border: 1px solid #818181;
+	margin-top: 15px;
+	padding: 10px 55px;
+}
+
+#infoblurb {
+	display: absolute;
+	width: 700px;
+	height: 195px;
+	border: 10px double white;
+	margin: 15px auto;
+	padding-top: 35px;
+}
+
+#infoblurb span {
+	color: #414141;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+#infoblurb a:link, a:visited {
+	color: black;
+	font-size: 20px;
+}
+
+
+#icon a:link, a:visited {
+	color: #616161;
+	text-decoration: none;
+	transition-duration: 0.1s;
+}
+#icon a:hover {
+	color: #212121;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+footer {
+	height: 180px;
+}
+
+.footermenu ul {
+	margin-top: 30px;
+	border: 1px solid #818181;
+	padding: 15px 45px 15px 45px;
+}
+
+footer p {
+	font-family: 'Open Sans', sans-serif;
+	color: #818181;
+	font-size: 12px;
+	letter-spacing: 0.05em;
+}
+
+
+
+
+
+
+/*///////////////////////////////////////////////////////*/
+
+/*CONTACT*/
+
+#mapper-block {
+	display: inline-block;
+	border: 8px dashed #DBDBDB;
+	height: 420px;
+	width: 710px;
+	margin: 40px 0px;
+}
+
+#mapper {
+	position: relative;
+	top: 20px;
+	left: 20px;
+	float: left;
+}
+
+
+.hours {
+	display: inline-block;
+	position: relative;
+	top: -20px;
+	float: left;
+	width: 48%;
+	margin-left: 5px;
+}
+
+
+/*///////////////////////////////////////////////////////*/
+
+/*NOTE*/
+
+
+.forminfo {
+	border: 10px double white;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.1em;
+	margin: 30px 0px 20px 0px;
+	padding: 25px 55px;
+	text-align: center;
+	background-color: #EEEEEE;
+	line-height: 180%;
+}
+
+form {
+	margin: 30px auto;
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+
+.textstuff {
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	outline: none;
+	border: 1px solid #818181;
+	padding: 7px;
+}
+
+.textstuff:focus {
+	outline: none;
+	border: 1px solid #FFAF35;
+	box-shadow: 0 0 2px #FFAF35;
+}	
+
+
+button {
+	margin-top: 20px;
+	width: 180px;
+	height: 50px;
+	border: 1px solid #333333;
+	border-radius: 10px;
+	background-color: white;
+	color: black;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 16px;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #333333;
+	color: white;
+}
+
+
+/*///////////////////////////////////////////////////////*/
+
+/* ABOUT */
+
+.aboutsec {
+	margin: 0px;
+	width: 100%;
+	height: 370px;
+	border-bottom: 30px double white;
+}
+
+footer p a:link, a:visited {
+	text-decoration: none;
+}
+
+footer p a:hover {
+	text-decoration: underline;
+}
+
+.aicon {
+	display: inline-block;
+	float: left;
+	position: relative;
+	left: 60px;
+	top: 65px;
+	background-color: white;
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 50%;
+	height: 230px;
+	width: 230px;
+}
+
+.aicon i {
+	position: relative;
+	top: 36px;
+	left: -10px;
+}
+
+.ablurb {
+	display: inline-block;
+	float: right;
+	position: relative;
+	right: 0px;
+	top: 10px;
+	width: 1015px;
+	border-bottom: 10px solid white;
+}
+
+.ablurb h1 {
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	letter-spacing: 5px;
+	font-size: 40px;
+	line-height: 80%;
+}
+
+.ainfo {
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	margin-top: 20px;
+	float: right;
+	right: 70px;
+	width: 830px;
+}
+
+.aboutsec p {
+	color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.1em;
+	line-height: 180%;
+}
