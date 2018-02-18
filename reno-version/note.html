@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<script src="https://use.fontawesome.com/a18f49ad84.js"></script>
+	<title>THE ORIENT</title>
+</head>
+<body>
+<div class="wrapper">
+
+	<div class="main">
+		<p>{ NOTE }</p>
+		<h1>THE ORIENT</h1>
+	</div>
+
+
+	<div class="menu">
+		<ul>
+			<a href="index.html"><li>HOME</li></a>
+			<a href="menu/main.html"><li>MENU</li></a>
+			<a href="about.html"><li>ABOUT</li></a>
+			<a href="contact.html"><li>CONTACT</li></a>
+			<a href="note.html"><li>NOTE</li></a>
+		</ul>
+	</div>
+
+	<div class="reno-prompt">
+	<p><b>still closed for renovations :( </b></p>
+	<div id="reno-icon">
+		<a href="index.html">
+			<img src="photo/reno.svg">
+		</a>
+	</div>
+	</div>
+
+	<div class="forminfo">
+		<div id="infotitle" style="border-color:#FFAF35;">
+			<p>HELLO AGAIN</p>
+		</div>
+		<p style="margin-top: -20px;"><br><br>
+		this is the place to send us a quick anonymous note regarding almost anything.<br>
+		any feedback, suggestions, and bad puns are appreciated<br><br>
+		[&nbsp; THANKS FOR VISITING US TODAY!&nbsp; ]
+		</p>
+	</div>
+
+	<form action="https://fncontact.com/THEORI/post" method="post">
+		<input type="hidden" name="url_success" value="http://theorientkelowna.com/afternote.html" /> 
+		<input type="hidden" name="url_error" value="http://theorientkelowna.com/nonafternote.html" />
+
+		<input class="textstuff" type="text" name="name" style="margin-bottom: 25px; width: 300px;" placeholder=" [ name here ]" /><br>
+		<textarea class="textstuff" name="message" rows="8" cols="80" class="input" placeholder=" [ type type typing ... ]" 
+		required></textarea><br>
+		<button type="submit">SEND ME</button>
+	</form>
+
+	<footer>
+		<div class="menu footermenu">
+			<ul>
+				<a href="index.html"><li>HOME</li></a>
+				<a href="menu/main.html"><li>MENU</li></a>
+				<a href="about.html"><li>ABOUT</li></a>
+				<a href="contact.html"><li>CONTACT</li></a>
+				<a href="note.html"><li>NOTE</li></a>
+			</ul>
+		</div>
+		<p>Copyright &copy; 2016 The Orient Restaurant . All rights reserved </p>
+	</footer>
+</div>
+</body>
+</html>

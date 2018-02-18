@@ -1,0 +1,320 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Julius Sans One', sans-serif; 
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+body {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1268px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.reno-prompt{
+	height: 88px; 
+	width: 550px;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 80px;
+	border: 5px double #FFAF35;
+	border-radius: 5px;
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 25px; 
+}
+
+#reno-icon{
+	position: relative;
+	background-color: white;
+	height: 80px;
+	width: 80px;
+	margin: auto;
+	margin-top: -20px;
+	border: 5px double #FFAF35;
+	border-radius: 50%;
+	transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+#reno-icon img{
+	margin: auto;
+	margin-top: 13px;
+	width: 50px;
+}
+
+#reno-icon:hover{
+	background-color: #FFAF35;
+	border: 5px double white;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.fixedmenubar {
+	color: white;
+	position: fixed;
+	top: 0px;
+	height: 45px;
+	width: 100%;
+	background-color: #111111;
+	opacity: 0.7;
+	vertical-align: middle;
+}
+
+
+.fixedmenubar i {
+	position: relative;
+	float: left;
+	top: 7px;
+	text-align: left;
+}
+
+
+#menuicons {
+	min-width: 74%;
+	position: relative;
+	top: 3px;
+	left: 10px;
+	color: white;
+}
+
+.fixedmenubar a:link, a:visited {
+	font-size: 20px;
+	font-family: 'Julius Sans One', sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+.fa-home:hover {
+	color: #FFAF35;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.main {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 60px;
+	text-align: center;
+	position: relative;
+	top: 30px;
+}
+
+.main h1 {
+	color: #FFAF35;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.main p {
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.options {
+	text-align: center;
+}
+
+.options ul {
+	display: inline-block;
+}
+
+.options li {
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	margin: 25px;
+	transition-duration: 0.15s;
+}
+
+.options a:link, a:visited {
+	color: #616161;
+	text-decoration: none;
+}
+
+.options a:hover {
+	color: #FFAF35;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.suboptions ul {
+	margin-right: 15px;
+}
+
+.suboptions li {
+	display: inline;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 16px;
+	margin: 15px;
+}
+
+.suboptions a:link, a:visited {
+	color: #555555;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.suboptions a:hover {
+	text-decoration: underline;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.heading {
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: bold;
+	display: inline-block;
+	border: 5px double #C5C5C5;
+	margin-top: 45px;
+	padding: 10px 55px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#contentAS {
+	margin: 65px 100px;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+.column {
+	display: inline-block;
+	width: 45%;
+}
+
+.content {
+	text-align: left;
+	margin-top: 30px;
+}
+
+.content h1 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #555555;
+	border-bottom: 1px solid #FFAF35;
+	letter-spacing: 0.4em;
+	font-size: 35px;
+}
+
+
+.item {
+	color: #333333;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 15px;
+	padding-top: 5px;
+}
+
+.item p {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 0.08em;
+	font-size: 15px;
+}
+
+.desc {
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 13px !important;
+}
+
+.item span {
+	float: right;
+}
+
+.item ul {
+	text-align: center;
+	list-style: none;
+	background-color: white;
+	margin-top: 30px;
+	padding: 25px 0px;
+	border: 10px dashed #EEEEEE;
+}
+
+.item li {
+	line-height: 180%;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.center {
+	text-align: center;
+}
+
+.descblurb {
+	display: inline-block;
+	border: 10px double white;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.1em;
+	margin: 15px 0px 55px 0px;
+	padding: 25px 55px;
+	text-align: center;
+	background-color: #EEEEEE;
+	line-height: 180%;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.footermenu {
+	text-align: center;
+}
+
+.footermenu ul {
+	display: inline-block;
+	margin-top: 20px;
+	border: 1px solid #FFAF35;
+	padding: 15px 45px;
+}
+
+.footermenu li {
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	margin: 20px;
+	transition-duration: 0.15s;
+}
+
+.footermenu a:link, a:visited {
+	color: #616161;
+	text-decoration: none;
+}
+
+.footermenu a:hover {
+	color: #FFAF35;
+}
+
+footer p {
+	font-family: 'Open Sans', sans-serif;
+	color: #818181;
+	font-size: 12px;
+	letter-spacing: 0.05em;
+	margin-bottom: 45px;
+}
+
+
+
+
