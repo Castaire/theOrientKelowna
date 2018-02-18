@@ -2,7 +2,17 @@
 <html lang="en">
 <head>
 	<link href="styles.css" rel="stylesheet" type="text/css">
+	<link href="658442-christmas/font/flaticon.css" rel="stylesheet" type="text/css">
 	<script src="https://use.fontawesome.com/a18f49ad84.js"></script>
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-111524311-1');
+	</script>
 	<title>THE ORIENT</title>
 </head>
 <body>
@@ -13,7 +23,6 @@
 		<h1>THE ORIENT</h1>
 	</div>
 
-
 	<div class="menu">
 		<ul>
 			<a href="index.html"><li>HOME</li></a>
@@ -23,7 +32,6 @@
 			<a href="note.html"><li>NOTE</li></a>
 		</ul>
 	</div>
-
 
 	<div class="intro">
 		<div id="background">
@@ -43,31 +51,38 @@
 		</div>
 	</div>
 
-
-
-	<div class="offer">
-		<div class="item" id="lunch">
-			<h1>LUNCH <span>+</span> DIM SUM</h1>
-			<p><strong>11:00am-2:00pm</strong> ~ A quick lunch for a great deal. <br>Also offering a variety of dim sum that is freshly made-to-order</p>
-
-			<a href="menu/lunch.html"><p>lunch menu here &nbsp; >></p></a>
-		</div>
-		<div class="item" id="takeout">
-			<h1>TAKEOUT <span>+</span> DELIVERY</h1>
-			<p>Check out our menu for an assortment of satisfying entrees that will make your meal. <br>Our evening <strong>delivery</strong> starts at 
-				<strong>4:00pm</strong> everyday</p>
-
-				<a href="menu/main.html"><p>check our our menu here &nbsp; >></p></a>
+	<div class="offer" style="height: 430px;">
+		<div class="item" id="lunch" style="margin-left: 18px">
+			<div class="item-content">
+				<h1 style="margin-top: 25px; margin-bottom: 26px">LUNCH <span>+</span> DIM SUM</h1>
+				<p><strong>11:00am-2:00pm</strong><br>A quick lunch for a great deal! Create your own combo from a list of popular entrees!<br>We also offer a variety of made-to-order dim sum</p><br><br><br><br>
 			</div>
-		<div class="item" id="buffet">
-			<h1>DINNER <span>+</span> BUFFET</h1>
-			<p><strong>5:00pm-8:00pm</strong> ~ Over 25 hot and delicious entrees.<br> [ we haven't even mentioned the salad + dessert bar and our made-from-scratch won-ton soup ]</p>
+			<form action="menu/lunch.html">
+				<button onclick="location.href='www.google.ca;">Lunch Menu >>> </button>
+			</form>
+		</div>
 
-			<a href="about.html"><p>more info here &nbsp; >></p></a>
+		<div class="item" id="takeout">
+			<div class="item-content">
+				<h1>TAKEOUT <span>+</span> DELIVERY</h1>
+				<p><strong> all-day, of course! </strong><br> Check out our menu for an assortment of satisfying entrees and family dinners that will make your meal!<br>Our <strong>evening delivery</strong> starts at 
+				<strong>4:00pm</strong> everyday</p><br><br><br>
+				</div>
+				<form action="menu/main.html">
+					<button id="takout-button">MENU >>></button>
+				</form>
+			</div>
+
+		<div class="item" id="buffet">
+			<div class="item-content">
+				<h1>DINNER <span>+</span> BUFFET</h1>
+				<p><strong>5:00pm-8:00pm</strong><br>Our buffet includes over 25 hot and delicious entrees!<br> [ we haven't even mentioned the salad + dessert bar and our made-from-scratch won-ton soup ]</p><br><br><br>
+			</div>
+			<form action="about.html">
+				<button id="buffet-button">MORE INFO HERE >>></button>
+			</form>
 		</div>
 	</div>
-
-
 
 	<div class="info">
 		<div id="infotitle">
@@ -89,7 +104,6 @@
 			</a>
 		</div>
 	</div>
-
 
 	<footer>
 		<div class="menu footermenu">
