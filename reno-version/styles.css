@@ -73,8 +73,7 @@ body {
 
 .reno-prompt{
 	height: 88px; 
-	/*width: 550px;*/
-	width: 650px;
+	width: 500px;
 	margin: auto;
 	margin-top: 40px;
 	border: 5px double #FFAF35;
@@ -116,9 +115,10 @@ body {
 	top: 30px;
 	z-index: 900;
 	margin: auto;
-	padding: 20px 25px;
+	padding: 30px 30px;
 	border: 1px solid #FFAF35;
 	font-family: 'Open Sans', sans-serif;
+	line-height: 130%;
 }
 
 .reno-card p{
