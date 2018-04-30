@@ -71,6 +71,64 @@ body {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+.reno-prompt{
+	height: 88px; 
+	width: 500px;
+	margin: auto;
+	margin-top: 40px;
+	border: 5px double #FFAF35;
+	border-radius: 5px;
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 25px; 
+}
+
+#reno-icon{
+	position: relative;
+	background-color: white;
+	height: 80px;
+	width: 80px;
+	margin: auto;
+	margin-top: -20px;
+	border: 5px double #FFAF35;
+	border-radius: 50%;
+	transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+#reno-icon img{
+	margin: auto;
+	margin-top: 13px;
+	width: 50px;
+}
+
+#reno-icon:hover{
+	background-color: #FFAF35;
+	border: 5px double white;
+}
+
+.reno-card{
+	width: 600px;
+	position: relative;
+	top: 30px;
+	z-index: 900;
+	margin: auto;
+	padding: 30px 30px;
+	border: 1px solid #FFAF35;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 130%;
+}
+
+.reno-card p{
+	font-size: 14px;
+	letter-spacing: 0.05em;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 .intro {
 	position: relative;
 	height: 500px;
