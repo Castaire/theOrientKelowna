@@ -134,12 +134,15 @@ body {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+.offer {
+	margin: auto;
+	width: 800px;
+	display: flex;
+}
+
 .item {
-	display: inline-block;
-	float: left;
+	flex: 1;
 	vertical-align: top;
-	width: 31%;
-	height: 80%;
 	margin: 48px 10px 20px 10px;
 }
 
@@ -210,7 +213,7 @@ body {
 
 .info {
 	background-color: #DDDDDD;
-	height: 480px;
+	height: 550px;
 	font-family: 'Julius Sans One', sans-serif;
 }
 
@@ -222,12 +225,10 @@ body {
 }
 
 #infoblurb {
-	display: absolute;
-	width: 700px;
-	height: 195px;
-	border: 10px double white;
 	margin: 15px auto;
+	width: 700px;
 	padding-top: 35px;
+	border: 10px double white;
 }
 
 #infoblurb span {
@@ -239,6 +240,10 @@ body {
 #infoblurb a:link, a:visited {
 	color: black;
 	font-size: 20px;
+}
+
+#icon {
+	margin-top: 0px;
 }
 
 #icon a:link, a:visited {
@@ -287,14 +292,14 @@ footer p {
 	top: 20px;
 }
 
+#infoblurb {
+	height: 350px;
+	width: 800px;
+	margin-top: 30px;
+}
 
-.hours {
-	display: inline-block;
-	position: relative;
-	top: -20px;
-	float: left;
-	width: 48%;
-	margin-left: 5px;
+#infoblurb p {
+	line-height: 150%;
 }
 
 
